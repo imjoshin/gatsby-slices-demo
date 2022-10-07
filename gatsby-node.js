@@ -4,8 +4,19 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
+  // START: Demo Content
+
+
+
+
   const header = path.resolve('./src/components/header.js')
 
+
+
+  
+
+
+  // END: Demo Content
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
